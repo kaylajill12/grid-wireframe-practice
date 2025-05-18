@@ -50,6 +50,10 @@ main {
         grid-template: repeat(2, 1fr) / repeat(3, 1fr);
     }
 
+    .column {
+        grid-row: 2;
+    }
+
     #footer {
         grid-column: 1 / 4;
     }
