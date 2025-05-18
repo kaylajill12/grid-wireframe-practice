@@ -25,6 +25,10 @@ main {
     grid-template-rows: repeat(3, 1fr);
 }
 
+.article {
+    display: none;
+}
+
 .column {
     background-color: red;
 }
@@ -48,6 +52,11 @@ main {
 
     main {
         grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    }
+
+    .article {
+        display: block;
+        grid-column: 2;
     }
 
     .column {
