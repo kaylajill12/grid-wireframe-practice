@@ -36,3 +36,13 @@ main {
 #footer {
     background-color: orange;
 }
+
+@media screen and (min-width: 1024px) {
+    body.grid-container {
+        grid-template: 1fr 3fr 1fr / 1fr 2fr 1fr;
+    }
+
+    main {
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    }
+}
